@@ -9,7 +9,7 @@ int suma;
 
     public int suma(int a[]) {
         for (int i = 0; i < a.length; i++) {
-            suma = a[i];
+            suma += a[i];
         }
         return suma;
     }

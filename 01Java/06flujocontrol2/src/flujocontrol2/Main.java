@@ -3,17 +3,14 @@ package flujocontrol2;
 import Oeraciones.operaciones;
 import java.util.Scanner;
 
-
 public class Main {
 
-  
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Defina el tamaño del arreglo con un valor entero:");
         
         int [] array = new int[Integer.parseInt(s.nextLine())];
-               
-        
+    
         for (int i=0; i<array.length; i++){
             System.out.println("Introduce un numero");
             array [i] = Integer.parseInt(s.nextLine());
